@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel "Cascudo" - Federação de Judô de MS</title>
+    <meta name="description" content="Perfil do atleta Miguel, Federação de Judô de Mato Grosso do Sul — Judô, Karatê, Boxe e trajetória no esporte.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background: #f8f9fa; color: #000; }
+
+        /* Cabeçalho oficial */
+        .cabecalho { background: #001452; padding: 15px 20px; display: flex; align-items: center; justify-content: space-between; }
+        .logo-federacao { color: #fff; font-size: 18px; font-weight: bold; }
+        .btn-menu { background: #00c97c; color: #001452; border: none; padding: 10px 22px; font-size: 18px; font-weight: bold; border-radius: 6px; cursor: pointer; }
+
+        /* Navegação */
+        .caminho { padding: 15px 20px; font-size: 17px; }
+        .caminho a { color: #001452; text-decoration: none; }
+        .titulo-pagina { font-size: 32px; font-weight: bold; color: #001452; padding: 0 20px 15px; border-bottom: 2px solid #00c97c; }
+
+        /* Abas */
+        .abas { display: flex; gap: 12px; padding: 15px 20px; overflow-x: auto; }
+        .aba { background: #fff; border: 1px solid #ddd; padding: 12px 24px; border-radius: 8px; font-weight: bold; color: #001452; cursor: default; }
+        .aba.ativa { background: #00c97c; border-color: #00c97c; }
+
+        /* FOTO GENÉRICA SILHUETA */
+        .container-foto { max-width: 420px; margin: 30px auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); overflow: hidden; }
+        .foto-generica { width: 100%; height: 520px; background: #f0f0f0; display: flex; align-items: center; justify-content: center; }
+        .silhueta { width: 220px; height: 320px; background: #222; clip-path: polygon(
+            50% 5%, 68% 12%, 78% 25%, 75% 42%, 82% 55%, 90% 70%, 85% 100%, 15% 100%, 10% 70%, 18% 55%, 25% 42%, 22% 25%, 32% 12%
+        ); }
+
+        /* Seções de dados */
+        .secao { max-width: 850px; margin: 35px auto; padding: 0 20px; }
+        .titulo-secao { background: #001452; color: #fff; padding: 12px 15px; font-size: 24px; font-weight: bold; border-left: 8px solid #00c97c; margin-bottom: 15px; }
+        .linha { display: flex; justify-content: space-between; padding: 11px 0; border-bottom: 1px solid #ddd; font-size: 17px; }
+        .linha:last-child { border: none; }
+        .rotulo { color: #333; font-weight: 500; }
+        .valor { color: #001452; font-weight: bold; }
+
+        /* Números */
+        .grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 15px; }
+        .cartao { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 25px 15px; text-align: center; }
+        .numero { font-size: 38px; font-weight: bold; color: #001452; margin-bottom: 8px; }
+        .legenda { color: #0077cc; font-weight: 500; font-size: 16px; }
+
+        /* Rodapé */
+        .rodape { background: #001452; color: #fff; text-align: center; padding: 30px 20px; margin-top: 50px; }
+        .rodape p { margin-top: 10px; font-size: 15px; }
+    </style>
+</head>
+<body>
+
+<!-- Cabeçalho -->
+<div class="cabecalho">
+    <div class="logo-federacao">FEDERAÇÃO DE JUDÔ DE MATO GROSSO DO SUL</div>
+    <button class="btn-menu">Menu ☰</button>
+</div>
+
+<div class="caminho">
+    <a href="#">Início</a> › <a href="#">Atletas</a> › <strong>Atleta</strong>
+</div>
+
+<div class="titulo-pagina">Atleta de Judô - Categoria Sub-15</div>
+
+<div class="abas">
+    <div class="aba ativa">Entrada</div>
+    <div class="aba">Conquistas</div>
+    <div class="aba">Treinos</div>
+    <div class="aba">Competições</div>
+</div>
+
+<!-- FOTO GENÉRICA SILHUETA (SEM PESSOA REAL) -->
+<div class="container-foto">
+    <div class="foto-generica">
+        <div class="silhueta"></div>
+    </div>
+</div>
+
+<!-- Dados pessoais -->
+<div class="secao">
+    <div class="titulo-secao">BIBLIOGRAFIA</div>
+    <div class="linha">
+        <span class="rotulo">Nome</span>
+        <span class="valor">MIGUEL "CASCUDO"</span>
+    </div>
+    <div class="linha">
+        <span class="rotulo">Nascimento</span>
+        <span class="valor">13 anos</span>
+    </div>
+    <div class="linha">
+        <span class="rotulo">Cidade</span>
+        <span class="valor">Campo Grande - MS</span>
+    </div>
+    <div class="linha">
+        <span class="rotulo">Modalidades</span>
+        <span class="valor">Judô • Karatê • Boxe</span>
+    </div>
+</div>
+
+<!-- Números -->
+<div class="secao">
+    <div class="titulo-secao">EM NÚMEROS</div>
+    <div class="grade">
+        <div class="cartao">
+            <div class="numero">5</div>
+            <div class="legenda">Medalhas Oficiais</div>
+        </div>
+        <div class="cartao">
+            <div class="numero">1</div>
+            <div class="legenda">Campeão Estadual</div>
+        </div>
+        <div class="cartao">
+            <div class="numero">1</div>
+            <div class="legenda">Vice-Campeão Estadual</div>
+        </div>
+        <div class="cartao">
+            <div class="numero">2022</div>
+            <div class="legenda">Jogos Olímpicos Escolares</div>
+        </div>
+    </div>
+</div>
+
+<!-- Categoria -->
+<div class="secao">
+    <div class="titulo-secao">POR CATEGORIA</div>
+    <div class="linha">
+        <span class="rotulo">Participações</span>
+        <span class="valor">8</span>
+    </div>
+    <div class="linha">
+        <span class="rotulo">Vitórias</span>
+        <span class="valor">6</span>
+    </div>
+    <div class="linha">
+        <span class="rotulo">Arremessos</span>
+        <span class="valor">+120</span>
+    </div>
+    <div class="linha">
+        <span class="rotulo">Finalizações</span>
+        <span class="valor">28</span>
+    </div>
+</div>
+
+<!-- Rodapé -->
+<div class="rodape">
+    <strong>FEDERAÇÃO DE JUDÔ DE MATO GROSSO DO SUL</strong>
+    <p>OSS! 🤜🤛 | Atualizado em 20/07/2026</p>
+</div>
+
+</body>
+</html>
